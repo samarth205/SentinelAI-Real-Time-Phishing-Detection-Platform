@@ -4,6 +4,8 @@ Real time phishing URL analysis dashboard built with React, Express, MongoDB and
 
 **Live demo:** [sentinelai-vkts.onrender.com](https://sentinelai-vkts.onrender.com)
 
+The live demo opens on a sign-in screen. Authentication is not connected yet; use **Continue to demo dashboard** to explore the interface. The sign-in form is a visual preview and does not accept or store credentials.
+
 ## Requirements
 - Node.js 20+
 - Python 3.10+
