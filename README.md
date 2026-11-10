@@ -2,6 +2,8 @@
 
 Real time phishing URL analysis dashboard built with React, Express, MongoDB and a Python scikit-learn service.
 
+**Live demo:** [sentinelai-vkts.onrender.com](https://sentinelai-vkts.onrender.com)
+
 ## Requirements
 - Node.js 20+
 - Python 3.10+
