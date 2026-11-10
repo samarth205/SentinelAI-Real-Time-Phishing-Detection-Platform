@@ -6,6 +6,8 @@ Real time phishing URL analysis dashboard built with React, Express, MongoDB and
 
 The live demo opens on a sign-in screen. Authentication is not connected yet; use **Continue to demo dashboard** to explore the interface. The sign-in form is a visual preview and does not accept or store credentials.
 
+Dashboard totals, the recent activity chart, risk breakdown, and average scan time are calculated from scans recorded by the API. Without MongoDB, the free Render instance keeps scan history in memory, so it resets when the service restarts or spins down.
+
 ## Requirements
 - Node.js 20+
 - Python 3.10+
