@@ -1,0 +1,8 @@
+{
+  "name": "sentinelai",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": ["client", "server"],
+  "scripts": {"dev": "concurrently -n api,web -c blue,green \"npm:dev:server\" \"npm:dev:client\"", "dev:client": "npm --workspace client run dev", "dev:server": "npm --workspace server run dev", "build": "npm --workspace client run build", "start": "npm --workspace server start"},
+  "devDependencies": {"concurrently": "^9.1.2"}
+}
